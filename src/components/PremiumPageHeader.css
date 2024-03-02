@@ -1,11 +1,11 @@
 .header {
-    height: 3.75rem;
+    height: 4rem;
     background-color: #333333;
     /* color: brown; */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 15px;
+    padding: 0 var(--app-general-padding);
 }
 
 
@@ -13,4 +13,16 @@
     list-style-type: none;
     display: flex;
     gap: 1.5rem;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.menu ul li .active a {
+    color: #D9DADC;
 }
