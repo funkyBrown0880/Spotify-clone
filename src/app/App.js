@@ -1,9 +1,11 @@
-import logo from '../logo.svg';
 import './App.css';
-
+import {PremiumPageHeader} from '../components/PremiumPageHeader'
 function App() {
   return (
-    <h1>Hello world</h1>
+    <div>
+      <PremiumPageHeader/>
+    </div>
+    
  
   );
 }
