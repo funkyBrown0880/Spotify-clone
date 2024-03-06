@@ -1,9 +1,11 @@
 import './App.css';
-import {PremiumPageHeader} from '../components/PremiumPageHeader'
+import {PremiumPageHeader} from '../components/Header/PremiumPageHeader'
+import {Hero} from '../components/Hero/hero'
 function App() {
   return (
     <div>
       <PremiumPageHeader/>
+      <Hero/>
     </div>
     
  
